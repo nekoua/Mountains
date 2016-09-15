@@ -1,0 +1,21 @@
+
+/* font-family: "Bringin"; */
+@font-face {
+    font-family: 'Bringin';
+    src: url('../font/BringinScriptFont/Bringin.ttf');
+    src: url('../font/BringinScriptFont/Bringin.ttf') format('truetype'),
+         url('../font/BringinScriptFont/Bringin.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+   }
+
+/* font-family: "RobotoMedium"; */
+@font-face {
+	font-family: "RobotoMedium";
+	src: url("../fonts/RobotoMedium/RobotoMedium.eot");
+	src: url("../fonts/RobotoMedium/RobotoMedium.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/RobotoMedium/RobotoMedium.woff") format("woff"),
+	url("../fonts/RobotoMedium/RobotoMedium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
