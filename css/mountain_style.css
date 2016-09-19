@@ -44,7 +44,7 @@ body {
 	left: 46.5%;
 }
 /*---=== HEADER BLOCK ===---*/
-.main-header {
+#main-header {
 	background: url(../img/background-image.png) no-repeat 58% 100%;
 	min-height: 698px;
 }
@@ -55,6 +55,7 @@ body {
 	position: fixed;
 	top: 0;
 	box-shadow: 0 5px 31px rgba(231,231,231,.7);
+	z-index: 100;	
 }
 .logo {
 	float: left;
@@ -100,7 +101,8 @@ body {
 	color: #ffffff;
 }
 .promo-block {
-	margin: 133px -1px 0 6px;
+	min-width: 500px;
+	margin: 24% -12% 0 -11.25%;
 	padding: 37px 34px 34px 34px;
 	border: 3px solid #ffffff;
 	display: block;
@@ -146,6 +148,8 @@ body {
 	float: left;
 	width: 450px;
 	padding: 0 0 0 4px;
+	position: relative;
+	z-index: 10;
 }
 .about-us .section-name {
 	font-size: 20px;
@@ -208,13 +212,10 @@ body {
 		min-height: 993px;
 		background: #ffffff;
 	}
-.journal::before {
+#journal::before {
 		content: "";
 		display: table;
 		clear: both;
-	}
-	.journal-cont {
-		background: red;
 	}
 .journal-colum-two {
 		min-height: 760px;
@@ -228,7 +229,7 @@ body {
 		float: right;
 		box-shadow: 0 0 30px rgba(0,0,0,.5);
 	}
-.journal .section-name {
+#journal .section-name {
 		margin-bottom: 69px;
 	}
 .journal-row {
@@ -343,33 +344,33 @@ body {
 	}
 	/*---=== JOURNAL BLOCK END ===---*/
 	/*---=== ORDER BLOCK ===---*/
-	.order {
+	#order {
 		min-height: 651px;
 		background: #f6f4f4 url(../img/bg/order-bg.png) no-repeat 50% 0%;
 	}
-	.order::before {
+	#order::before {
 		content: "";
 		display: table;
 		clear: both;
 	}
-	.order .section-name {
+	#order .section-name {
 		text-align: justify;
 		margin: 188px 0 14px 0;
 		font-size: 20px;
 		letter-spacing: 1.7px;
 	}
-	.order .section-name::before {
+	#order .section-name::before {
 		top: -45px;
 		left: 1px;
 	}
-	.order p {
+	#order p {
 		padding: 0 0 0 2px;
 		margin: 0 0 26px 0;
 		letter-spacing: 0.1px;
 		line-height: 26px;
 		color: #949494;
 	}
-	.order form {
+	#order form {
 		background: #ffffff;
 		min-width: 500px;
 		max-width: 850px;	
@@ -377,7 +378,7 @@ body {
 		border-radius: 4px;
 		margin: 0 0 15px 0;
 	}
-	.order input {
+	#order input {
 		margin: 5px -4px 5px 0;
 		padding: 0 18px 0 18px;
 		letter-spacing: 0.3px;
@@ -385,16 +386,16 @@ body {
 		border: none;
 		height: 34px;
 	}
-	.order input:first-child {
+	#order input:first-child {
 		border-right: 1px solid #cccccc;
 	}
-	.order .btn-style {
+	#order .btn-style {
 		border: none;
 		padding: 20px 55px 17px 56px;
 		letter-spacing: 1.7px;
 		margin: 0 0 0 25px; 
 	}
-	.order i {
+	#order i {
 		color: #36aeea;
 		position: relative;
 		font-style: normal;
@@ -402,7 +403,7 @@ body {
 		letter-spacing: 0.3px;
 		font-size: 14px;
 	}
-	.order i::before {
+	#order i::before {
 		content: '';
 		width: 20px;
 		height: 20px;
@@ -418,7 +419,7 @@ body {
 	#work {
 		min-height: 646px;
 	}
-	.work::before {
+	#work::before {
 		content: "";
 		display: table;
 		clear: both;
@@ -529,16 +530,16 @@ body {
 	}
 	/*---=== WORK BLOCK END ===---*/
 	/*---=== TRAVEL BLOCK ===---*/
-	.travel {
-		min-height: 1080px;
+	#travel {
+		min-height: 1077px;
 		background: url(../img/bg/bg-travel.png) no-repeat 50% 99%;
 	}
-	.travel::before {
+	#travel::before {
 		content: "";
 		display: table;
 		clear: both;
 	}
-	.travel .bg-conteiner::before {
+	#travel .bg-conteiner::before {
 		content: "";
 		display: table;
 		clear: both;	
@@ -640,7 +641,7 @@ body {
 	#gallery {
 		min-height: 778px;
 	}
-	.gallery::before {
+	#gallery::before {
 		content: "";
 		display: table;
 		clear: both;
@@ -723,16 +724,16 @@ body {
 	}
 /*---=== GALLERY BLOCK END ===---*/
 /*---=== FEEDBACK BLOCK ===---*/
-	.feedback {
+	#feedback {
 		min-height: 1268px;
 		background: url(../img/bg/Group-7-copy-21.jpg) no-repeat center bottom;
 	}
-	.feedback::before {
+	#feedback::before {
 		content: "";
 		display: table;
 		clear: both;
 	}
-	.feedback .section-name {
+	#feedback .section-name {
 		margin: 91px 0 96px 0;
 	}
 	.feedback-cont::after {
