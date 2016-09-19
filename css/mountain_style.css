@@ -882,3 +882,45 @@ body {
 		float: right;
 		padding: 16px 0;
 	}
+
+
+/*------====== iPad in portrait & landscape ======------*/
+	@media only screen 
+		and (min-device-width : 768px) 
+		and (max-device-width : 1024px)  {
+ /* STYLES GO HERE */
+	.call-btn {
+		padding: 14px 32px 12px 34px;
+	}
+	.promo-block {
+		margin: 24% 0% 0 0%;
+	}	
+	.about-description {
+		margin: 30px 5px 0 0;
+		}
+	.travel-card {
+		background: #ccc;
+		width: 200px;
+		min-height: 382px;
+		margin: 0 55px 35px 55px;
+	}
+	.travel-card:last-child {
+		margin: 0 55px 35px 55px;
+	}
+	.work-card-conteiner {
+		padding: 50px 20px;
+	}
+	.work-card-conteiner li:nth-child(2) {
+		margin-left: 11px;
+	}
+	.work-card-conteiner li:nth-child(3) {
+		margin-left: 11px;
+	}
+	.work-card-conteiner li:nth-child(4) {
+		margin-left: 11px;
+	}
+		.horisontal-line::before {
+		width: 500%;
+	}
+	
+}
