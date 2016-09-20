@@ -24,6 +24,12 @@ body {
 .btn-hover:hover {
 	background-color: #109eea;
 }
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
 .section-name {
 	font-size: 30px;
 	margin: 102px 0 18px 0; 
@@ -336,12 +342,7 @@ body {
 	.journal-colum-one .text-block{
 		width: 100%;
 	}
-	.left {
-		float: left;
-	}
-	.right {
-		float: right;
-	}
+	
 	/*---=== JOURNAL BLOCK END ===---*/
 	/*---=== ORDER BLOCK ===---*/
 	#order {
@@ -759,12 +760,7 @@ body {
 		left: 11px;
 		top: -14px;
 	}
-	.fb-bloc-left {
-		float:left;
-	}
-	.fb-bloc-right {
-		float:right;	
-	}
+	
 	.feedback-autor img {
 		float: left;
 		margin: 1px;
@@ -922,5 +918,41 @@ body {
 		.horisontal-line::before {
 		width: 500%;
 	}
-	
+	.journal-colum-two {
+		width: 80%;
+		float: none;
+		margin: 0 auto;
+	}
+	.journal-colum-one {
+		float: none;
+		margin: 0 auto 34px;
+		width: 80%;
+		min-height: 380px;
+	}	
+	.journal-colum-one .text-block::before {
+		top: 13.5%;
+		left: -5%;
+		border-top: 10px solid transparent;
+  	border-bottom: 10px solid transparent; 
+	  border-right: 10px solid #ffffff;	
+	}
+	.journal-colum-one .text-block {
+		width: 50%;
+		float: right;
+	}
+	.journal-colum-one .item-img-cont {
+		float: left;
+	}
+	.feedback-block {
+		float: none;
+		margin: 0 auto;
+		display: block;
+	}
+	.feedback-autor {
+		display: inline-block;
+	}
+	.autor-name-block {
+		color: #36aeea;
+		display: inline-block;
+	}
 }
