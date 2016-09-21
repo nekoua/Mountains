@@ -760,7 +760,6 @@ body {
 		left: 11px;
 		top: -14px;
 	}
-	
 	.feedback-autor img {
 		float: left;
 		margin: 1px;
@@ -851,7 +850,6 @@ body {
 		padding: 12px 0 0 0;
 		text-align: center;
 	}
-	
 	.social-btn {
 		display: inline-block;
 		width: 40px;
@@ -955,4 +953,234 @@ body {
 		color: #36aeea;
 		display: inline-block;
 	}
+	.gallery-row {
+		margin: 0 10px 10px 0;
+		border-radius: 3px;
+		text-align: center;
+		overflow: hidden;
+	}
+	.gallery-colum:nth-child(1) .gallery-row:nth-child(1) {
+		width: 223px;
+		height: 314px;
+	}
+	.gallery-colum:nth-child(1) .gallery-row:nth-child(2) {
+		width: 223px;
+		height: 251px;
+	}
+	.gallery-colum:nth-child(2) .gallery-row:nth-child(1) {
+		width: 321px;
+		height: 214px;
+	}
+	.gallery-colum:nth-child(2) .gallery-row:nth-child(2) {
+		width: 321px;
+		height: 351px;
+	}
+	.gallery-colum:nth-child(3) .gallery-row:nth-child(1) {
+		width: 377px;
+		height: 314px;
+		margin-right: 0;
+	}
+	.gallery-colum:nth-child(3) .gallery-row:nth-child(2) {
+		width: 377px;
+		height: 251px;
+		margin-right: 0;
+	}
+}
+/*iPhone 6 in portrait & landscape*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+
+	.call-btn {
+		padding: 14px 32px 12px 34px;
+	}
+	.promo-block {
+		margin: 24% 0% 0 0%;
+	}	
+	.about-description {
+		margin: 30px 5px 0 0;
+		}
+	.travel-card {
+		background: #ccc;
+		width: 200px;
+		min-height: 382px;
+		margin: 0 55px 35px 55px;
+	}
+	.travel-card:last-child {
+		margin: 0 55px 35px 55px;
+	}
+	.work-card-conteiner {
+		padding: 50px 10px;
+	}
+	.work-card-conteiner li:nth-child(2) {
+		margin-left: 11px;
+	}
+	.work-card-conteiner li:nth-child(3) {
+		margin-left: 11px;
+	}
+	.work-card-conteiner li:nth-child(4) {
+		margin-left: 11px;
+	}
+		.horisontal-line::before {
+		width: 450%;
+	}
+	.journal-colum-two {
+		width: 80%;
+		float: none;
+		margin: 0 auto;
+	}
+	.journal-colum-one {
+		float: none;
+		margin: 0 auto 34px;
+		width: 80%;
+		min-height: 380px;
+	}	
+	.journal-colum-one .text-block::before {
+		top: 13.5%;
+		left: -5%;
+		border-top: 10px solid transparent;
+  	border-bottom: 10px solid transparent; 
+	  border-right: 10px solid #ffffff;	
+	}
+	.journal-colum-one .text-block {
+		width: 50%;
+		float: right;
+	}
+	.journal-colum-one .item-img-cont {
+		float: left;
+	}
+	.feedback-block {
+		float: none;
+		margin: 0 auto;
+		display: block;
+	}
+	.feedback-autor {
+		display: inline-block;
+	}
+	.autor-name-block {
+		color: #36aeea;
+		display: inline-block;
+	}
+	.gallery-row {
+		margin: 0 10px 10px 0;
+		border-radius: 3px;
+		text-align: center;
+		overflow: hidden;
+	}
+	.gallery-colum:nth-child(1) .gallery-row:nth-child(1) {
+		width: 223px;
+		height: 304px;
+	}
+	.gallery-colum:nth-child(1) .gallery-row:nth-child(2) {
+		width: 223px;
+		height: 241px;
+	}
+	.gallery-colum:nth-child(2) .gallery-row:nth-child(1) {
+		width: 321px;
+		height: 204px;
+	}
+	.gallery-colum:nth-child(2) .gallery-row:nth-child(2) {
+		width: 321px;
+		height: 341px;
+	}
+	.gallery-colum:nth-child(3) .gallery-row:nth-child(1) {
+		width: 377px;
+		height: 304px;
+		margin-right: 0;
+	}
+	.gallery-colum:nth-child(3) .gallery-row:nth-child(2) {
+		width: 377px;
+		height: 241px;
+		margin-right: 0;
+	}
+	.partner {
+		min-height: 188px;
+		background: #f8f9fa;
+	}
+	.partner::before {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	.partner-cont {
+		padding: 66px 0 60px 0;
+		display: inline-block;
+		width: 100%;
+	}
+	.partner-cont div {
+		padding: 10px 0;
+		float: left;
+	}
+	.partner-cont div:nth-child(1) {
+		margin: 0 10% 0 2%;
+	}
+	.partner div:nth-child(2) {
+		margin: -5px 10% 0 0;
+	}
+	.partner div:nth-child(3) {
+		margin: -2px 10% 0 0;
+	}
+	.partner div:nth-child(4) {
+		margin: 3px 10% 0 0;
+	}
+	.partner div:nth-child(5) {
+		margin: 0 10% 0 0px;
+	}
+
+	#order .section-name {
+		margin: 80px 0 14px 10%;
+	}
+	#order .section-name::before {
+		top: -45px;
+		left: 1px;
+	}
+	#order p {
+		margin: 0 10% 26px 10%;
+		line-height: 26px;
+		color: #949494;
+		font-size: 12px;
+	}
+	#order form {
+		min-width: 500px;
+		max-width: 550px;	
+		padding: 3px;
+		border-radius: 4px;
+		margin: 0 auto 15px auto;
+	}
+	#order input {
+		margin: 5px auto 5px auto;
+		padding: 18px;
+		letter-spacing: 0.3px;
+		width: 100%;
+		font-size: 28px;
+		border: none;
+		height: 44px;
+		display: block;
+	}
+	#order input:first-child {
+		border-right: none;
+	}
+	#order .btn-style {
+		border: none;
+		padding: 20px 55px 17px 56px;
+		letter-spacing: 1.7px;
+		margin: 0 auto 0 auto;
+		display: block; 
+	}
+	#order i {
+		margin: 0 0 0 25%;
+		font-size: 12px;
+	}
+	#order i::before {
+		content: '';
+		width: 30px;
+		height: 30px;
+		background: url(../img/sprte/Lock-locked.png) no-repeat 50% 50%; 
+		position: absolute;
+		z-index: 1;
+		top: 15%;
+		text-align: center;
+		left: -35px;	
+	}
+ /* STYLES GO HERE */
 }
