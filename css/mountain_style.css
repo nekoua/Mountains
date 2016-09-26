@@ -112,8 +112,6 @@ body {
 	border: 3px solid #ffffff;
 	
 }
-
-
 .promo-block h2 {
 	margin: 0;
 	line-height: 40px;
@@ -215,47 +213,47 @@ body {
 	z-index: 1;
 	}/*---=== ABOUT-US BLOCK END ===---*/
 	/*---=== JOURNAL BLOCK ===---*/
-#journal {
+	#journal {
 		min-height: 993px;
 		background: #ffffff;
 	}
-#journal::before {
+	#journal::before {
 		content: "";
 		display: table;
 		clear: both;
 	}
-.journal-colum-two {
+	.journal-colum-two {
 		min-height: 760px;
 		width: 66.666666%;
 		float: left;
 		box-shadow: 0 0 30px rgba(0,0,0,.5);
 	}
-.journal-colum-one {
+	.journal-colum-one {
 		width: 33.333333%;
 		min-height: 760px;
 		float: right;
 		box-shadow: 0 0 30px rgba(0,0,0,.5);
 	}
-#journal .section-name {
+	#journal .section-name {
 		margin-bottom: 69px;
 	}
-.journal-row {
+	.journal-row {
 		min-height: 380px;
 		width: 100%;
 	}
-.item-img-cont {
+	.item-img-cont {
 		width: 380px;
 		height: 380px;
 		display: block;
 		overflow: hidden;
 		position: relative;
-}
+	}
 	.text-block::before {
 		display: block;
 		content: '';
 		position: absolute;
-	  width: 0; 
-  	height: 0;  
+		width: 0; 
+		height: 0;  
 	}
 	.item-img-cont::before {
 		display: block;
@@ -273,8 +271,8 @@ body {
 		top: 13.5%;
 		left: -2.5%;
 		border-top: 10px solid transparent;
-  	border-bottom: 10px solid transparent; 
-	  border-right: 10px solid #ffffff;
+		border-bottom: 10px solid transparent; 
+		border-right: 10px solid #ffffff;
 	}
 	.journal-row:nth-child(2) .item-img-cont::before {
 		background: url(../img/sprte/hear.png) no-repeat 50% 50%;
@@ -283,8 +281,8 @@ body {
 		top: 13.5%;
 		right: -2.5%;
 		border-top: 10px solid transparent;
-  	border-bottom: 10px solid transparent; 
-	  border-left: 10px solid #ffffff;
+		border-bottom: 10px solid transparent; 
+		border-left: 10px solid #ffffff;
 	}
 	.journal-colum-one .item-img-cont::before {
 		background: url(../img/sprte/Blob.png) no-repeat 50% 50%;
@@ -293,8 +291,8 @@ body {
 		top: -2.5%;
 		left: 14%;
 		border-left: 10px solid transparent;
-  	border-right: 10px solid transparent; 
-	  border-bottom: 10px solid #ffffff;	
+		border-right: 10px solid transparent; 
+		border-bottom: 10px solid #ffffff;	
 	}
 	.text-block {
 		font-family: 'Open Sans', sans-serif;
@@ -596,15 +594,15 @@ body {
 	.stars-cont {
 		min-height: 44px;
 	}
-		.star { 
-			margin: 5px -4px 0 0;
-			display: inline-block;
-			font-size: 24px;
-			text-shadow: 0px 0px 10px rgba(0,0,0,.5);
-		}
-		.star:first-child { 
-			margin-left: 20px;
-		}
+	.star { 
+		margin: 5px -4px 0 0;
+		display: inline-block;
+		font-size: 24px;
+		text-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	}
+	.star:first-child { 
+		margin-left: 20px;
+	}
 	.travel-description {
 		margin: 110px 20px 0 20px;
 	}
@@ -638,8 +636,8 @@ body {
 		font-size: 26px;
 		font-weight: 900;
 	}
-/*---=== TRAVEL BLOCK END ===---*/
-/*---=== GALLERY BLOCK ===---*/
+	/*---=== TRAVEL BLOCK END ===---*/
+	/*---=== GALLERY BLOCK ===---*/
 	#gallery {
 		min-height: 778px;
 	}
@@ -724,8 +722,8 @@ body {
 	.partner div:nth-child(5) {
 		margin: 0 137px 0 0px;
 	}
-/*---=== GALLERY BLOCK END ===---*/
-/*---=== FEEDBACK BLOCK ===---*/
+	/*---=== GALLERY BLOCK END ===---*/
+	/*---=== FEEDBACK BLOCK ===---*/
 	#feedback {
 		min-height: 1268px;
 		background: url(../img/bg/Group-7-copy-21.jpg) no-repeat center bottom;
@@ -879,18 +877,258 @@ body {
 	}
 
 
-/*------====== iPad in portrait & landscape ======------*/
+	/*------====== iPad in portrait & landscape ======------*/
 	@media only screen 
-		and (min-device-width : 768px)
-		and (max-device-width : 1024px)
+	and (min-device-width : 768px)
+	and (max-device-width : 1024px)
 	{
 		.container {
-			min-width: 740px;
-			padding: 0 15px 0 15px;
-			margin: 0 auto;
-			background: red;
+			min-width: 768px;
+			max-width: 768px;
+			padding: 0;
+			overflow: hidden;
 		}
-	}
+		.nav-conteiner {
+			padding: 10px 0 10px 0;
+		}
+		.navigate {
+			float: left;
+		}
+		.navigate ul {
+			padding: 0;
+			margin: 0;
+			width: 380px;
+			margin: 0 auto;
+		}
+		.navigate li {
+			list-style: none;
+			float: left;
+			padding: 5px 14px 5px 14px;
+			position: relative;
+		}
+		.navigate li:hover::after {
+			content: '';
+			display: block;
+			width: 100%;
+			height: 1px;
+			left: 0;
+			position: absolute;
+			background: #36aeea;
+		}
+		.navigate a {
+			text-decoration: none;
+			font-size: 12px;
+			font-weight: 800;
+			color: #9daeb6;
+		}
+		.call-btn {
+			float: right;
+			font-family: 'Raleway', sans-serif;
+			font-size: 12px;
+			color: #36aeea;
+			font-weight: 800;
+			letter-spacing: 1.7px;
+			padding: 14px 42px 12px 44px;
+			text-decoration: none;
+			border: 3px solid #36aeea;
+			border-radius: 3px;
+		}
+		.call-btn:hover {
+			background: #36aeea;
+			color: #ffffff;
+		}
+		.promo-block {
+			margin: 24% 5% 0 5%;
+		}
+		.about-description {
+			margin: 80px 5px 0 0;
+		}	
+		.journal-colum-two {
+			width: 99%;
+			float: none;
+			margin: 0 auto;
+		}
+		.journal-colum-one {
+			float: none;
+			margin: 0 auto 34px;
+			width: 99%;
+			min-height: 380px;
+		}	
+		.journal-colum-one .text-block::before {
+			top: 13.5%;
+			left: -5%;
+			border-top: 10px solid transparent;
+			border-bottom: 10px solid transparent; 
+			border-right: 10px solid #ffffff;	
+		}
+		.journal-colum-one .text-block {
+			width: 50%;
+			float: right;
+		}
+		.journal-colum-one .item-img-cont {
+			float: left;
+		}
+
+		#order .section-name {
+			margin: 80px 0 14px 10%;
+		}
+		#order .section-name::before {
+			top: -45px;
+			left: 1px;
+		}
+		#order p {
+			margin: 0 10% 26px 10%;
+			line-height: 26px;
+			color: #949494;
+			font-size: 14px;
+		}
+		#order form {
+			width: 500px;	
+			padding: 0;
+			border-radius: 4px;
+			margin: 0 auto 10px auto;
+		}
+		#order input {
+			margin: 5px auto 5px auto;
+			padding: 18px;
+			letter-spacing: 0.3px;
+			width: 90%;
+			font-size: 18px;
+			border: none;
+			height: 44px;
+			display: block;
+		}
+		#order input:first-child {
+			border-right: none;
+		}
+		#order .btn-style {
+			border: none;
+			padding: 20px 55px 17px 56px;
+			letter-spacing: 1.7px;
+			margin: 0 auto 0 auto;
+			display: block; 
+			width: 100%;
+		}
+		#order i {
+			margin: 0 0 30px 22%;
+			font-size: 14px;
+			display: inline-block;
+		}
+		#order i::before {
+			content: '';
+			width: 20px;
+			height: 20px;
+			background: url(../img/sprte/Lock-locked.png) no-repeat 50% 50%; 
+			position: absolute;
+			z-index: 1;
+			top: -5%;
+			text-align: center;
+			left: -35px;	
+		}
+		.work-card-conteiner {
+			padding: 50px 100px;
+		}
+		.work-card-conteiner li {
+			margin-bottom: 30px;
+		}
+		.work-card-conteiner li:nth-child(2) {
+			margin-left: 101px;
+		}
+		.work-card-conteiner li:nth-child(3) {
+			margin-left: 0;
+		}
+		.work-card-conteiner li:nth-child(4) {
+			margin-left: 101px;
+		}
+		.horisontal-line::before {
+			width: 700%;
+		}
+		.work-card-conteiner li .horisontal-line::before {
+			background: none;
+		}
+		.travel-card {
+			background: #ccc;
+			width: 200px;
+			min-height: 382px;
+			margin: 0 25px 35px 25px;
+		}
+		.travel-card:last-child {
+			margin: 0 25px 35px 25px;
+		}
+		.gallery-row {
+			margin: 0 10px 10px 0;
+			border-radius: 3px;
+			text-align: center;
+			overflow: hidden;
+		}
+		.gallery-colum:nth-child(1) .gallery-row:nth-child(1) {
+			width: 198px;
+			height: 314px;
+		}
+		.gallery-colum:nth-child(1) .gallery-row:nth-child(2) {
+			width: 198px;
+			height: 251px;
+		}
+		.gallery-colum:nth-child(2) .gallery-row:nth-child(1) {
+			width: 270px;
+			height: 214px;
+		}
+		.gallery-colum:nth-child(2) .gallery-row:nth-child(2) {
+			width: 270px;
+			height: 351px;
+		}
+		.gallery-colum:nth-child(3) .gallery-row:nth-child(1) {
+			width: 280px;
+			height: 314px;
+			margin-right: 0;
+		}
+		.gallery-colum:nth-child(3) .gallery-row:nth-child(2) {
+			width: 280px;
+			height: 251px;
+			margin-right: 0;
+		}
+		.partner-cont {
+			padding: 66px 0 60px 0;
+			display: inline-block;
+			width: 100%;
+		}
+		.partner-cont div {
+			padding: 10px 0;
+			float: left;
+		}
+		.partner-cont div:nth-child(1) {
+			margin: 0 7.9% 0 2%;
+		}
+		.partner div:nth-child(2) {
+			margin: -5px 7.9% 0 0;
+		}
+		.partner div:nth-child(3) {
+			margin: -2px 7.9% 0 0;
+		}
+		.partner div:nth-child(4) {
+			margin: 3px 7.9% 0 0;
+		}
+		.partner div:nth-child(5) {
+			margin: 0 7.9% 0 0px;
+		}
+		.feedback-block {
+			float: none;
+			margin: 0 auto;
+			display: block;
+		}
+		.feedback-autor {
+			display: inline-block;
+		}
+		.autor-name-block {
+			display: inline-block;
+		}
+		.feedback-form-cont {
+			margin: 138px auto 30px auto;
+		}
+		
+
+
+
 
 
 
@@ -1006,8 +1244,8 @@ body {
 		height: 251px;
 		margin-right: 0;
 	}
-}*/
-/*iPhone 6 in portrait & landscape*/
+	}*/
+	/*iPhone 6 in portrait & landscape*/
 /*@media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px) {
@@ -1203,5 +1441,5 @@ and (max-device-width : 667px) {
 		text-align: center;
 		left: -35px;	
 	}
- /* STYLES GO HERE */
+	/* STYLES GO HERE */
 /*}*/
